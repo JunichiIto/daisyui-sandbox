@@ -24,9 +24,7 @@ https://devcenter.heroku.com/articles/getting-started-with-rails7
 
 ```
 heroku apps:create
-heroku addons:create heroku-postgresql:essential-0
 git push heroku main
-heroku run rake db:migrate
 heroku open
 ```
 
