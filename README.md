@@ -1,24 +1,33 @@
-# README
+# daisyui-sandbox
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Sample app for daisyUI.
 
-Things you may want to cover:
+## Setup 
 
-* Ruby version
+```
+bin/setup
+```
 
-* System dependencies
+## Run 
 
-* Configuration
+``` 
+bin/dev
+```
 
-* Database creation
+Open http://localhost:3000 .
 
-* Database initialization
+## Deploy to Heroku 
 
-* How to run the test suite
+https://devcenter.heroku.com/articles/getting-started-with-rails7
 
-* Services (job queues, cache servers, search engines, etc.)
+```
+heroku apps:create
+heroku addons:create heroku-postgresql:essential-0
+git push heroku main
+heroku run rake db:migrate
+heroku open
+```
 
-* Deployment instructions
+## License
 
-* ...
+MIT License
