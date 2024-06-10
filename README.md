@@ -2,6 +2,8 @@
 
 Sample app for daisyUI.
 
+![Screenshot 2024-06-10 at 9 31 51](https://github.com/JunichiIto/daisyui-sandbox/assets/1148320/d0b24081-53db-4fee-9e63-6687165ae73a)
+
 ## Setup 
 
 ```
